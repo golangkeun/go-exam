@@ -2,12 +2,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        {{template "_header"}}
+        {{template "header"}}
     </head>
     <body>
-        {{template "_message"}}
         <p>Page: Index</p>
         <p>Welcome {{.Nama}}</p>
+	<footer>
+		{{template "footer"}}
+	</footer>
     </body>
 </html>
 {{end}}
